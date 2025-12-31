@@ -1,13 +1,13 @@
-/* RESET & BASE */
+/* BASE RESET */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #f8f3f3;
+  background-color: #f8f3f3; /* LIGHT background */
   color: #333;
   line-height: 1.6;
 }
 
-/* HERO HEADER */
+/* HERO HEADER (RED ON PURPOSE) */
 header {
   background-color: #B11226;
   color: white;
@@ -15,27 +15,21 @@ header {
   padding: 50px 20px;
 }
 
-header h1 {
-  margin-bottom: 10px;
-  font-size: 2.5rem;
-}
-
+header h1,
 header p {
-  max-width: 700px;
-  margin: auto;
-  font-size: 1.1rem;
+  color: white;
 }
 
-/* MAIN LAYOUT */
+/* MAIN CONTENT AREA */
 main {
   max-width: 900px;
   margin: auto;
   padding: 30px 20px;
 }
 
-/* SECTION CARDS */
+/* WHITE SECTION CARDS */
 section {
-  background-color: white;
+  background-color: white; /* THIS is the white you want */
   padding: 25px;
   margin-bottom: 30px;
   border-radius: 12px;
@@ -49,16 +43,6 @@ h2 {
   border-bottom: 3px solid #B11226;
   padding-bottom: 6px;
   margin-bottom: 15px;
-}
-
-h3 {
-  margin-top: 20px;
-  margin-bottom: 8px;
-}
-
-/* TEXT */
-p {
-  margin-top: 0;
 }
 
 /* LISTS */
@@ -85,18 +69,8 @@ a.button:hover {
   opacity: 0.9;
 }
 
-/* CENTER HELPERS */
+/* CENTERING */
 .center {
   text-align: center;
 }
 
-/* RESPONSIVE */
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 2rem;
-  }
-
-  main {
-    padding: 20px 15px;
-  }
-}

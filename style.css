@@ -1,18 +1,102 @@
+/* RESET & BASE */
 body {
-  font-family: Arial, sans-serif;
-  background-color: red; /* changed from #f8f3f3 to red */
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f3f3;
   color: #333;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
-h1, h2 {
-  color: #B11226;
+/* HERO HEADER */
+header {
+  background-color: #B11226;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
 }
 
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+header p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+/* MAIN LAYOUT */
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* SECTION CARDS */
 section {
+  background-color: white;
+  padding: 25px;
   margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* HEADINGS */
+h2 {
+  color: #B11226;
+  margin-top: 0;
+  border-bottom: 3px solid #B11226;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+/* TEXT */
+p {
+  margin-top: 0;
+}
+
+/* LISTS */
 ul {
   padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* BUTTON */
+a.button {
+  display: inline-block;
+  background-color: #B11226;
+  color: white;
+  padding: 12px 22px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+a.button:hover {
+  opacity: 0.9;
+}
+
+/* CENTER HELPERS */
+.center {
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  main {
+    padding: 20px 15px;
+  }
 }
